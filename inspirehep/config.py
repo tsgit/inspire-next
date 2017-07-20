@@ -1350,6 +1350,7 @@ orcid.REMOTE_MEMBER_APP['params']['request_token_params'] = {
     ]),
     'show_login': 'true',
 }
+orcid.REMOTE_MEMBER_APP['remember'] = True
 OAUTHCLIENT_REMOTE_APPS = dict(
     orcid=orcid.REMOTE_MEMBER_APP,
 )
